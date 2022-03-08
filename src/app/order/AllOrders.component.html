@@ -1,0 +1,30 @@
+<table class="table">
+  <thead>
+  <tr>
+    <th>Order No</th>
+    <th>User ID</th>
+    <th>Total Items</th>
+    <th>Total Amount</th>
+    <th>Order  Date</th>
+    <th> Order status</th>
+    <th> Order Close</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr  *ngFor="let item of (orders$ | async)">
+    <td> {{ item.OrderNo }} </td>
+    <td> {{ item.UserId }} </td>
+    <td> {{ item.TotalItem }} </td>
+    <td> {{ item.TotalAmount }} </td>
+    <td> {{ item.Date}} </td>
+    <td> {{ item.OrderStatus }} </td>
+    <td>   <button  (click)="closeOrder(item.OrderNo)" style="margin:10px"  color="green" aria-label="Example icon button with a plus one icon">
+      Close Order
+    </button> </td>
+
+  </tr>
+
+  </tbody>
+
+</table>
+

@@ -1,0 +1,10 @@
+import { createAction , props} from '@ngrx/store';
+import {ProductOrder} from '../model/product.order';
+export const addOrder = createAction('[order Component] AddOrder',props<{order:ProductOrder}>());
+export const confirmOrder = createAction('[order Component] confirmOrder',props<{order:any}>());
+export const cancelOrder = createAction('[order Component] cancelOrder',props<{order:any}>());
+export const closeOrder = createAction('[order Component] closeOrder',props<{orderNo:any}>());
+export const loginUser = createAction('[order Component] loginUser',props<{user:any}>());
+export const logoutUser = createAction('[order Component] logoutUser',props<{user:any}>());
+export const removeOrder = createAction('[order Component] RemoveOrder',props<{order:ProductOrder}>());
+export const resetOrder = createAction('[order Component] ResetOrder');

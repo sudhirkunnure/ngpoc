@@ -1,0 +1,41 @@
+[
+    {
+        "userId":"9890863603",
+        "password":"12345",
+        "contactNo":"9890863603",
+        "Marketpoint":"Govind chowk,Pimple Saudager",
+        "homeAddress":"c1 302 Jasmine Society"
+    },
+    {
+        "userId":"9890863602",
+        "Name":"Sudhir",
+        "password":"12345",
+        "contactNo":"9890863603",
+        "Marketpoint":"Govind chowk,Pimple Saudager",
+        "homeAddress":"c1 302 Jasmine Society"
+    },
+    {
+        "userId":"9890863601",
+        "Name":" Kunnure",
+        "password":"12345",
+        "contactNo":"9890863603",
+        "Marketpoint":"Govind chowk,Pimple Saudager",
+        "homeAddress":"c1 302 Jasmine Society"
+    },
+    {
+        "userId":"9890863612",
+        "Name":"SKunnure",
+        "password":"12345",
+        "contactNo":"9890863603",
+        "Marketpoint":"Govind chowk,Pimple Saudager",
+        "homeAddress":"c1 302 Jasmine Society"
+    },
+    {
+        "userId":"9890863643",
+        "Name":"Sudhir K",
+        "password":"12345",
+        "contactNo":"9890863603",
+        "Marketpoint":"Govind chowk,Pimple Saudager",
+        "homeAddress":"c1 302 Jasmine Society"
+    }
+]

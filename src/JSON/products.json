@@ -1,0 +1,223 @@
+[
+  {
+    "Id": 1,
+    "Name": "Ladies Finger",
+    "Rate": 35,
+    "Unit": "kg",
+    "AvailableStock": 50,
+    "UpdatedDate": "17-02-2022",
+    "UpdatedUser": "Sudhir K",
+    "ActualRate": 30,
+    "ImageURL": "/assets/ladyfinger.jpg"
+  },
+  {
+    "Id": 2,
+    "Name": "Tomato",
+    "Rate": 45,
+    "Unit": "kg",
+    "AvailableStock": 50,
+    "UpdatedDate": "17-02-2022",
+    "UpdatedUser": "Sudhir K",
+    "ActualRate": 40,
+    "ImageURL": "/assets/Tomato.jpg"
+  },
+  {
+    "Id": 3,
+    "Name": "Beans",
+    "Rate": 80,
+    "Unit": "kg",
+    "AvailableStock": 50,
+    "UpdatedDate": "17-02-2022",
+    "UpdatedUser": "Sudhir K",
+    "ActualRate": 75,
+    "ImageURL": "/assets/Beans.jpg"
+  },
+  {
+    "Id": 4,
+    "Name": "Beetroot",
+    "Rate": 45,
+    "Unit": "kg",
+    "AvailableStock": 50,
+    "UpdatedDate": "17-02-2022",
+    "UpdatedUser": "Sudhir K",
+    "ActualRate": 40,
+    "ImageURL": "/assets/Beetroot.jpg"
+  },
+  {
+    "Id": 5,
+    "Name": "Bitter Gourd",
+    "Rate": 60,
+    "Unit": "kg",
+    "AvailableStock": 50,
+    "UpdatedDate": "17-02-2022",
+    "UpdatedUser": "Sudhir K",
+    "ActualRate": 55,
+    "ImageURL": "/assets/BitterGourd.jpg"
+  },
+  {
+    "Id": 6,
+    "Name": "Bottle Gourd",
+    "Rate": 20,
+    "Unit": "kg",
+    "AvailableStock": 50,
+    "UpdatedDate": "17-02-2022",
+    "UpdatedUser": "Sudhir K",
+    "ActualRate": 15,
+    "ImageURL": "/assets/BottleGourd.jpg"
+  },
+  {
+    "Id": 7,
+    "Name": "Brinjal",
+    "Rate": 40,
+    "Unit": "kg",
+    "AvailableStock": 50,
+    "UpdatedDate": "17-02-2022",
+    "UpdatedUser": "Sudhir K",
+    "ActualRate": 35,
+    "ImageURL": "/assets/Brinjal.jpg"
+  },
+  {
+    "Id": 8,
+    "Name": "Cabbage",
+    "Rate": 25,
+    "Unit": "kg",
+    "AvailableStock": 50,
+    "UpdatedDate": "17-02-2022",
+    "UpdatedUser": "Sudhir K",
+    "ActualRate": 20,
+    "ImageURL": "/assets/Cabbage.jpg"
+  },
+  {
+    "Id": 9,
+    "Name": "Capsicum",
+    "Rate": 55,
+    "Unit": "kg",
+    "AvailableStock": 50,
+    "UpdatedDate": "17-02-2022",
+    "UpdatedUser": "Sudhir K",
+    "ActualRate": 50,
+    "ImageURL": "/assets/Capsicum.jpg"
+  },
+  {
+    "Id": 10,
+    "Name": "Carrot",
+    "Rate": 50,
+    "Unit": "kg",
+    "AvailableStock": 50,
+    "UpdatedDate": "17-02-2022",
+    "UpdatedUser": "Sudhir K",
+    "ActualRate": 45,
+    "ImageURL": "/assets/Carrot.jpg"
+  },
+  {
+    "Id": 11,
+    "Name": "Cauliflower",
+    "Rate": 45,
+    "Unit": "kg",
+    "AvailableStock": 50,
+    "UpdatedDate": "17-02-2022",
+    "UpdatedUser": "Sudhir K",
+    "ActualRate": 40,
+    "ImageURL": "/assets/Cauliflower.jpg"
+  },
+  {
+    "Id": 12,
+    "Name": "Cucumber",
+    "Rate": 30,
+    "Unit": "kg",
+    "AvailableStock": 50,
+    "UpdatedDate": "17-02-2022",
+    "UpdatedUser": "Sudhir K",
+    "ActualRate": 25,
+    "ImageURL": "/assets/Cucumber.jpg"
+  },
+  {
+    "Id": 13,
+    "Name": "Ginger",
+    "Rate": 240,
+    "Unit": "kg",
+    "AvailableStock": 50,
+    "UpdatedDate": "17-02-2022",
+    "UpdatedUser": "Sudhir K",
+    "ActualRate": 230,
+    "ImageURL": "/assets/Ginger.jpg"
+  },
+  {
+    "Id": 14,
+    "Name": "Green Chili",
+    "Rate": 40,
+    "Unit": "kg",
+    "AvailableStock": 50,
+    "UpdatedDate": "17-02-2022",
+    "UpdatedUser": "Sudhir K",
+    "ActualRate": 30,
+    "ImageURL": "/assets/GreenChili.jpg"
+  },
+  {
+    "Id": 15,
+    "Name": "Onion",
+    "Rate": 25,
+    "Unit": "kg",
+    "AvailableStock": 50,
+    "UpdatedDate": "17-02-2022",
+    "UpdatedUser": "Sudhir K",
+    "ActualRate": 20,
+    "ImageURL": "/assets/Onion.jpg"
+  },
+  {
+    "Id": 16,
+    "Name": "Potato",
+    "Rate": 25,
+    "Unit": "kg",
+    "AvailableStock": 50,
+    "UpdatedDate": "17-02-2022",
+    "UpdatedUser": "Sudhir K",
+    "ActualRate": 20,
+    "ImageURL": "/assets/Potato.jpg"
+  },
+  {
+    "Id": 17,
+    "Name": "Pumpkin",
+    "Rate": 25,
+    "Unit": "kg",
+    "AvailableStock": 50,
+    "UpdatedDate": "17-02-2022",
+    "UpdatedUser": "Sudhir K",
+    "ActualRate": 20,
+    "ImageURL": "/assets/Pumpkin.jpg"
+  },
+  {
+    "Id": 18,
+    "Name": "Coriander Leaves",
+    "Rate": 25,
+    "Unit": "kg",
+    "AvailableStock": 50,
+    "UpdatedDate": "17-02-2022",
+    "UpdatedUser": "Sudhir K",
+    "ActualRate": 20,
+    "ImageURL": "/assets/CorianderLeaves.jpg"
+  },
+  {
+    "Id": 19,
+    "Name": "Drumstick",
+    "Rate": 45,
+    "Unit": "kg",
+    "AvailableStock": 50,
+    "UpdatedDate": "17-02-2022",
+    "UpdatedUser": "Sudhir K",
+    "ActualRate": 40,
+    "ImageURL": "/assets/Drumstick.jpg"
+  },
+  {
+    "Id": 20,
+    "Name": "Radish",
+    "Rate": 25,
+    "Unit": "kg",
+    "AvailableStock": 50,
+    "UpdatedDate": "17-02-2022",
+    "UpdatedUser": "Sudhir K",
+    "ActualRate": 20,
+    "ImageURL": "/assets/Radish.jpg"
+  }
+
+]

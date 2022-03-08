@@ -1,0 +1,17 @@
+<button (click)="increment()">Increment</button>
+<label for="name">Name</label>
+<input type="text" [(ngModel)]="name"  id="name" aria-describedby="name" >
+<input type="text" [(ngModel)]="name2"  id="name2" aria-describedby="name2" >
+
+val1:{{name}} val2: {{name2}}
+<div *ngFor="let item of count$ | async">
+  <p>
+
+  Current Count1: {{ item.val1 }}
+  Current Count2: {{ item.val2 }}
+  </p>
+</div>
+
+<button (click)="decrement()">Decrement</button>
+
+<button (click)="reset()">Reset Counter</button>

@@ -1,0 +1,62 @@
+<div class="w3-container w3-teal">
+  <h1>Weekly Vegetable Market</h1>
+</div>
+
+<div class="w3-content">
+  <p></p>
+<!--  <div *ngFor="let item of order$ | async">-->
+<!--    <p>-->
+<!--      Order Details:Item: {{ item.Name }} Rate:  {{ item.Rate }} {{item.Unit}}  Quantity: {{ item.Quantity }}  Amount: {{ item.Quantity*item.Rate}} Date :{{ item.date }}-->
+<!--    </p>-->
+<!--  </div>-->
+  <p><input type="text" style="width:50%" [(ngModel)]="searchItem" name="searchItem" placeholder="Search vegetable"></p>
+  <!--  <p *ngFor="let item of order$ "><span>{{item.Name}}</span></p>-->
+  <div  *ngFor="let item of vegetables|AppFilterVegetables:searchItem">
+    <div class="w3-row w3-margin">
+
+      <div class="w3-third">
+        <img src={{item.ImageURL}} style="width:200px;min-height:200px">
+      </div>
+      <div class="w3-twothird w3-container">
+        <h2>{{item.Name}}</h2>
+
+        <h3>Rate : {{item.Rate}} Per {{item.Unit}}</h3>
+
+        <div>
+          <form #myform="ngForm">
+
+            <select class='select-option'
+                    #quantity
+                    (change)='onOptionsSelected(quantity.value)' required>
+              <option class='option'
+                      *ngFor='let Quantity of Quantites'
+                      [value]="Quantity.value"> {{Quantity.viewValue}}</option>
+            </select>
+
+<!--          <mat-form-field appearance="fill">-->
+
+<!--            <select matNativeControl  style="background-color:lightgrey" >-->
+<!--              <option *ngFor="let Quantity of Quantites" [(ngModel)]="Quantity.value" name="selectedQuantity"  [ngValue]="Quantity.value">-->
+<!--                {{Quantity.viewValue}}-->
+<!--              </option>-->
+
+<!--            </select>-->
+<!--          </mat-form-field>-->
+
+
+          <button  (click)="addorder(item,myform)" style="margin:10px"  color="green" aria-label="Example icon button with a plus one icon">
+            Add
+          </button>
+<!--            <button  (click)="removeorder(item)" style="margin:10px"  color="green" aria-label="Example icon button with a plus one icon">-->
+<!--              Remove-->
+<!--            </button>-->
+
+          </form>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+</div>

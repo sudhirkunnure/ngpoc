@@ -1,0 +1,48 @@
+<div  *ngIf="orders | async  as orderObj">
+<p> <input type="text" style="width:50%" [(ngModel)]="orderNo" name="orderNo" placeholder="orderNo" required></p>
+<p>User Id:{{userId | async}}</p>
+
+<input *ngIf="userId | async  as uid" type="text" style="width:50%"   placeholder="user ID" [ngModel]="uid">
+
+<table class="table">
+  <thead>
+  <tr>
+    <th>Name</th>
+    <th>Rate</th>
+    <th>Quantity</th>
+    <th>Unit</th>
+    <th>Amount</th>
+    <th>Date</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr  *ngFor="let item of (order$ | async)">
+    <td> {{ item.Name }} </td>
+    <td> {{ item.Rate }} </td>
+    <td> {{ item.Quantity }} </td>
+    <td> {{ item.Unit }} </td>
+    <td> {{ item.Quantity*item.Rate}} </td>
+    <td> {{ item.date }} </td>
+    <td>   <button  (click)="removeorder(item)" style="margin:10px"  color="green" aria-label="Example icon button with a plus one icon">
+      Remove
+    </button> </td>
+
+  </tr>
+
+  </tbody>
+</table>
+  <div >
+    <p> Total Items:{{orderObj.TotalItem}}</p>
+    <p> Discount 5%:{{orderObj.TotalDiscount}}</p>
+    <p> Total Amount:{{orderObj.TotalAmount}}</p>
+    <p> Total Amount Discounted:{{orderObj.TotalAmountD}}</p>
+  </div>
+
+<button  *ngIf="userId | async  as uid " (click)="confirmorder(uid,orderObj.TotalItem,orderObj.TotalAmount)" style="margin:10px"  color="green" aria-label="Example icon button with a plus one icon">
+  Confirm Order
+</button>
+
+<button  (click)="cancelorder()" style="margin:10px"  color="green" aria-label="Example icon button with a plus one icon">
+              Cancel Order
+  </button>
+ </div>
